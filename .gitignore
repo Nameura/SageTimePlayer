@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# PyInstaller 构建输出
+dist/
+build_temp/
+*.spec
+
+# 用户数据
+database/settings.json
+database/scrapy_data.db
+proxy/raw_subscription.txt
+proxy/nodes.yaml
+proxy/nodes.txt
+jsonl_backup/
+
+# IDE
+.vscode/
+.idea/
+
+# 系统
+Thumbs.db
+.DS_Store
+
+# 大文件（运行 scripts/download_mpv.py 自动下载）
+assets/tools/libmpv-2.dll
