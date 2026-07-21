@@ -66,39 +66,39 @@ python build_exe.py
 
 ```
 SageTimePlayer/
-├── main.py                       # 入口
-├── build_exe.py                  # PyInstaller 打包脚本
-├── gui/                          # 界面组件
-│   ├── main_window.py            # 主窗口
-│   ├── sidebar.py                # 侧边栏导航
-│   ├── proxy/                    # 代理模块 UI
-│   │   ├── proxy_page.py         # 代理管理页面
-│   │   ├── node_card.py          # 节点卡片
-│   │   ├── proxy_data.py         # 节点数据管理
-│   │   └── subscription_dialog.py# 订阅设置弹窗
-│   └── video/                    # 视频模块 UI
-│       ├── video_page.py         # 视频浏览页面
-│       ├── video_play_page.py    # 视频播放页面
-│       ├── cover_card.py         # 封面卡片
-│       ├── mpv_player.py         # mpv 播放器封装
-│       └── flow_layout.py        # 流式布局
-├── proxy/                        # 代理后端
-│   ├── fetch_nodes.py            # 订阅拉取与解析
-│   ├── launch_v2ray.py           # 核心启动/停止
-│   └── v2ray/                    # 代理核心文件
-├── scrapy_core/                  # 爬虫
+├── main.py                           # 入口
+├── build_exe.py                      # PyInstaller 打包脚本
+├── gui/                              # 界面组件
+│   ├── main_window.py                # 主窗口
+│   ├── sidebar.py                    # 侧边栏导航
+│   ├── proxy/                        # 代理模块 UI
+│   │   ├── proxy_page.py             # 代理管理页面
+│   │   ├── node_card.py              # 节点卡片
+│   │   ├── proxy_data.py             # 节点数据管理
+│   │   └── subscription_dialog.py    # 订阅设置弹窗
+│   └── video/                        # 视频模块 UI
+│       ├── video_page.py             # 视频浏览页面
+│       ├── video_play_page.py        # 视频播放页面
+│       ├── cover_card.py             # 封面卡片
+│       ├── mpv_player.py             # mpv 播放器封装
+│       └── flow_layout.py            # 流式布局
+├── proxy/                            # 代理后端
+│   ├── fetch_nodes.py                # 订阅拉取与解析
+│   ├── launch_v2ray.py               # 核心启动/停止
+│   └── v2ray/                        # 代理核心文件
+├── scrapy_core/                      # 爬虫
 │   └── scrapy_spider/
 │       ├── spiders/Hanime1_spider.py
 │       ├── pipelines.py
 │       └── settings.py
-├── database/                     # 数据管理
-│   ├── database.py               # SQLite 操作
-│   └── settings.py               # JSON 配置读写
-├── path/paths.py                 # 路径管理（开发/打包自动适配）
+├── database/                         # 数据管理
+│   ├── database.py                   # SQLite 操作
+│   └── settings.py                   # JSON 配置读写
+├── path/paths.py                     # 路径管理（开发/打包自动适配）
 ├── scripts/
-│   └── download_mpv.py           # libmpv-2.dll 下载工具
+│   └── download_mpv.py               # libmpv-2.dll 下载工具
 └── assets/
-    └── tools/libmpv-2.dll        # mpv 播放依赖（运行 download_mpv.py 自动下载）
+    └── tools/libmpv-2.dll            # mpv 播放依赖（运行 download_mpv.py 自动下载）
 ```
 
 ## 技术栈
