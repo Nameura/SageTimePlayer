@@ -14,6 +14,12 @@
 
 
 
+## 截图
+
+![代理模块](assets/images/代理模块.png)
+![视频模块](assets/images/视频模块.png)
+![订阅配置](assets/images/订阅配置.png)
+
 ## 快速开始
 
 ### 前置要求
